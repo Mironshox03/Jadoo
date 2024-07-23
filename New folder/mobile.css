@@ -1,0 +1,39 @@
+@media only screen and (max-width:500px)  {
+    .wrapper{
+        width: 100%;
+        height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+    header .logo{
+        width: 114.91px;
+        height: 33.99px;
+    }
+    header .menu{
+        display: none;
+    }
+    header .btns{
+        display: none;
+    }
+    header .toggle{
+        display: block;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .services .cards{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+}
